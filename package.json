@@ -1,6 +1,6 @@
 {
   "name": "flattenify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Flatten any npm module into a single, require'able bundle.",
   "main": "cli.js",
   "bin": {

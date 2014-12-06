@@ -24,14 +24,14 @@ Options:
 
 ## Example
 
-To flatten the `[hashish](https://github.com/substack/node-hashish)` module into a single file bundle:
+To flatten the [`hashish`](https://github.com/substack/node-hashish) module into a single file bundle:
 
 ```bash
 $ flattenify hashish --outfile ./hashish.js
 ```
 
 Then, require it like any local module file (example from
-`[hashish](https://github.com/substack/node-hashish)` docs):
+[`hashish`](https://github.com/substack/node-hashish) docs):
 
 ```javascript
 var Hash = require('./hashish.js');
