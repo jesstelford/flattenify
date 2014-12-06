@@ -1,0 +1,29 @@
+{
+  "name": "flattenify",
+  "version": "1.0.0",
+  "description": "Flatten any npm module into a single, require'able bundle.",
+  "main": "cli.js",
+  "bin": {
+    "flattenify": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jesstelford/flattenify.git"
+  },
+  "keywords": [
+    "browserify",
+    "flatten",
+    "npm",
+    "module",
+    "bundle"
+  ],
+  "author": "Jess Telford <hi@jes.st>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesstelford/flattenify/issues"
+  },
+  "homepage": "https://github.com/jesstelford/flattenify"
+}
