@@ -25,5 +25,11 @@
   "bugs": {
     "url": "https://github.com/jesstelford/flattenify/issues"
   },
-  "homepage": "https://github.com/jesstelford/flattenify"
+  "homepage": "https://github.com/jesstelford/flattenify",
+  "dependencies": {
+    "brfs": "^1.2.0",
+    "browserify": "^7.0.0",
+    "commander": "^2.5.0",
+    "tmp": "0.0.24"
+  }
 }
