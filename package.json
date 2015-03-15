@@ -27,9 +27,9 @@
   },
   "homepage": "https://github.com/jesstelford/flattenify",
   "dependencies": {
-    "brfs": "^1.2.0",
-    "browserify": "^7.0.0",
-    "commander": "^2.5.0",
-    "tmp": "0.0.24"
+    "brfs": "1.4.0",
+    "browserify": "9.0.3",
+    "commander": "2.7.1",
+    "tmp": "0.0.25"
   }
 }
