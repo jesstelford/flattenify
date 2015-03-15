@@ -49,5 +49,5 @@ Hash({ a : 1, b : 2, c : 3, d : 4 })
 
 Flattenify installs the requested module into a temporary directory (which is
 later cleaned up) with npm. Browserify is then invoked with a special
-incantation that generates the final node-compaitble module, saved into
+incantation that generates the final node-compatible module, saved into
 `outfile`.
