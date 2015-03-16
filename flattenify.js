@@ -4,7 +4,7 @@ var path = require('path');
 var brfs = require('brfs');
 var fs = require('fs');
 
-module.exports = function(moduleName, outfile, verbose, pathName) {
+module.exports = function(moduleName, outfile, verbose, pathName, otherArgs) {
 
   npmInstall(moduleName, pathName, verbose && outfile, function(err) {
 
@@ -15,7 +15,8 @@ module.exports = function(moduleName, outfile, verbose, pathName) {
     var moduleDir = path.resolve(pathName, 'node_modules', moduleName);
     var moduleEntryFile = require.resolve(moduleDir);
 
-    var b = browserify(moduleEntryFile, {
+    var b = browserify({
+      entries: [moduleEntryFile],
       standalone: 'flattenify_' + moduleName,
       basedir: moduleDir,
       builtins: [],

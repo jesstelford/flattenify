@@ -10,6 +10,6 @@ tmpDir(function _tempDirCreated(err, path) {
     console.error(err);
   }
 
-  flattenify(options.args[0], options.outfile, options.verbose, path);
+  flattenify(options.args[0], options.outfile, options.verbose, path, options.args.slice(1));
 
 });
